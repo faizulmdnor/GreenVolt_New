@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="GreenVolt Project adding power bi">
-      <change afterPath="$PROJECT_DIR$/Add_New_Emp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employees_performances_by_years.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/Employees_performances_by_years.pbix" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GreenVolt-Username.py" beforeDir="false" afterPath="$PROJECT_DIR$/GreenVolt-Username.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GreenVolt_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/GreenVolt_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_performances.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_performances.py" afterDir="false" />
-    </list>
+    <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="GreenVolt Project script updated:&#10;Add_New_Emp.py&#10;GreenVolt-Username.py&#10;GreenVolt_db.py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,15 +48,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Add_New_Emp.executor": "Run",
-    "Python.GreenVolt-Username.executor": "Run",
+    "Python.GreenVolt-Username.executor": "Debug",
     "Python.create_bonus.executor": "Run",
-    "Python.create_performances (1).executor": "Run",
+    "Python.create_performances (1).executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Add_New_Emp">
+  <component name="RunManager" selected="Python.create_performances (1)">
     <configuration name="Add_New_Emp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GreenVolt" />
       <option name="ENV_FILES" value="" />
@@ -154,9 +147,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Add_New_Emp" />
-        <item itemvalue="Python.GreenVolt-Username" />
         <item itemvalue="Python.create_performances (1)" />
+        <item itemvalue="Python.GreenVolt-Username" />
+        <item itemvalue="Python.Add_New_Emp" />
         <item itemvalue="Python.create_performances" />
       </list>
     </recent_temporary>
@@ -209,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731249939372</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="GreenVolt Project script updated:&#10;Add_New_Emp.py&#10;GreenVolt-Username.py&#10;GreenVolt_db.py">
+      <option name="closed" value="true" />
+      <created>1731315424332</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731315424332</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,7 +227,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="GreenVolt Project adding Employees performance data" />
     <MESSAGE value="GreenVolt Project adding power bi" />
-    <option name="LAST_COMMIT_MESSAGE" value="GreenVolt Project adding power bi" />
+    <MESSAGE value="GreenVolt Project script updated:&#10;Add_New_Emp.py&#10;GreenVolt-Username.py&#10;GreenVolt_db.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="GreenVolt Project script updated:&#10;Add_New_Emp.py&#10;GreenVolt-Username.py&#10;GreenVolt_db.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -238,8 +240,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/GreenVolt-Username.py</url>
-          <line>45</line>
-          <option name="timeStamp" value="18" />
+          <line>13</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/create_performances.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/create_performances.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
