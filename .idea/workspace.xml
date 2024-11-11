@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="GreenVolt Project script updated:&#10;Add_New_Emp.py&#10;GreenVolt-Username.py&#10;GreenVolt_db.py">
-      <change beforePath="$PROJECT_DIR$/.idea/GreenVolt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GreenVolt.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employees_performances_by_years.pbix" beforeDir="false" afterPath="$PROJECT_DIR$/Employees_performances_by_years.pbix" afterDir="false" />
-    </list>
+    <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="GreenVolt Project script updated:&#10;Add_New_Emp.py&#10;GreenVolt-Username.py&#10;GreenVolt_db.py&#10;add bulk emp csv&#10;README.txt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +40,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2odwYrJSJ1xgtqBwFrjYhklB9NK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,6 +51,7 @@
   "keyToString": {
     "Python.Add_New_Emp.executor": "Run",
     "Python.GreenVolt-Username.executor": "Debug",
+    "Python.add_bulk_emp_csv.executor": "Debug",
     "Python.create_bonus.executor": "Run",
     "Python.create_performances (1).executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -63,7 +61,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.create_performances (1)">
+  <component name="RunManager" selected="Python.add_bulk_emp_csv">
     <configuration name="Add_New_Emp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GreenVolt" />
       <option name="ENV_FILES" value="" />
@@ -100,6 +98,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GreenVolt-Username.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="add_bulk_emp_csv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GreenVolt" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/add_bulk_emp_csv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,6 +174,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.add_bulk_emp_csv" />
         <item itemvalue="Python.create_performances (1)" />
         <item itemvalue="Python.GreenVolt-Username" />
         <item itemvalue="Python.Add_New_Emp" />
@@ -217,7 +238,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731315424332</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="GreenVolt Project script updated:&#10;Add_New_Emp.py&#10;GreenVolt-Username.py&#10;GreenVolt_db.py">
+      <option name="closed" value="true" />
+      <created>1731316930734</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731316930734</updated>
+    </task>
+    <task id="LOCAL-00007" summary="GreenVolt Project script updated:&#10;Add_New_Emp.py&#10;GreenVolt-Username.py&#10;GreenVolt_db.py&#10;add bulk emp csv&#10;README.txt">
+      <option name="closed" value="true" />
+      <created>1731318667836</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731318667836</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,7 +272,8 @@
     <MESSAGE value="GreenVolt Project adding Employees performance data" />
     <MESSAGE value="GreenVolt Project adding power bi" />
     <MESSAGE value="GreenVolt Project script updated:&#10;Add_New_Emp.py&#10;GreenVolt-Username.py&#10;GreenVolt_db.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="GreenVolt Project script updated:&#10;Add_New_Emp.py&#10;GreenVolt-Username.py&#10;GreenVolt_db.py" />
+    <MESSAGE value="GreenVolt Project script updated:&#10;Add_New_Emp.py&#10;GreenVolt-Username.py&#10;GreenVolt_db.py&#10;add bulk emp csv&#10;README.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="GreenVolt Project script updated:&#10;Add_New_Emp.py&#10;GreenVolt-Username.py&#10;GreenVolt_db.py&#10;add bulk emp csv&#10;README.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
