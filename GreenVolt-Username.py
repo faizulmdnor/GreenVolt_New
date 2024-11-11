@@ -5,11 +5,20 @@ from datetime import datetime
 to_date = datetime.today().strftime('%Y-%m-%d')
 
 def query_employees(conn):
-    sql_query = "SELECT emp_id, First_Name, Last_Name FROM Employees"
+    sql_query = f"""SELECT e.emp_id, e.First_Name, e.Last_Name 
+            FROM Employees e
+            LEFT JOIN Usernames u
+            ON e.emp_id = u.emp_id
+            WHERE u.Username IS NULL
+    """
     df = pd.read_sql(sql_query, conn)
+    if not df.empty:
+        return df
+    else:
+        print('No new username to create.')
     return df
 
-def check_existing_username(conn, username):
+def check_existing_username(cursor, username):
     sql_query = "SELECT * FROM Usernames WHERE Username = ?"
     counter = 1
     while True:
@@ -34,10 +43,20 @@ def insert_into_usernames(conn, cursor, emp_id, username):
         conn.rollback()
 
 def employees_details(conn):
-    sql_query = "SELECT * FROM vw_Employees"
+    sql_query = f"""
+            SELECT *
+            FROM Employees e
+            LEFT JOIN Usernames u
+            ON e.emp_id = u.emp_id
+            WHERE u.Username IS NULL
+        """
     try:
         df = pd.read_sql(sql_query, conn)
-        return df
+        if not df.empty:
+            return df
+        else:
+            print('No new username to create.')
+
     except Exception as e:
         print(f"An error occurred: {e}")
         return None
@@ -47,7 +66,7 @@ DATABASE = 'GreenVolt'
 conn = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={SERVER};DATABASE={DATABASE};Trusted_Connection=yes;')
 cursor = conn.cursor()
 
-"""
+
 try:
     df_data = query_employees(conn)
     df_data['Username'] = df_data['First_Name'] + '_' + df_data['Last_Name']
@@ -66,4 +85,3 @@ try:
 finally:
     cursor.close()
     conn.close()
-"""

@@ -48,15 +48,17 @@ emp_hired_year = df_data[['emp_id', 'Hired_Year']]
 
 year_hired = sorted(df_data['Hired_Year'].unique().tolist())
 
-df_perfomance = pd.DataFrame(columns=['emp_id','Year', 'category'])
+df_performance = pd.DataFrame(columns=['emp_id','Year', 'category'])
 
-for year in year_hired:
+for y in range(len(year_hired)-1):
+    year = year_hired[y]
     df = df_data[df_data['Hired_Year'] <= year]
     empids = df['emp_id'].tolist()
     performance = create_performance(empids, year)
-    df_perfomance = pd.concat([df_perfomance, performance])
+    df_performance = pd.concat([df_performance, performance])
 
-df_perfomance.reset_index(drop=True, inplace=True)
+df_performance.reset_index(drop=True, inplace=True)
 
 ins_table = 'Employees_Performance'
-greenvolt.insert_data(ins_table, df_perfomance)
+
+greenvolt.insert_data_no_duplicate(ins_table, df_performance)
