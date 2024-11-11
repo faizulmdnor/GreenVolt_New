@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="GreenVolt Project script updated:&#10;add_bulk_emp_csv.py add details.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Add_New_Emp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Add_New_Emp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GreenVolt-Username.py" beforeDir="false" afterPath="$PROJECT_DIR$/GreenVolt-Username.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GreenVolt_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/GreenVolt_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check_Age.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_Age.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employees_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/employees_info.csv" afterDir="false" />
-    </list>
+    <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="GreenVolt Project script updated: add details and purpose." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -278,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731336360635</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="GreenVolt Project script updated: add details and purpose.">
+      <option name="closed" value="true" />
+      <created>1731337257664</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731337257664</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,7 +300,8 @@
     <MESSAGE value="GreenVolt Project script updated:&#10;Add_New_Emp.py&#10;GreenVolt-Username.py&#10;GreenVolt_db.py&#10;add bulk emp csv&#10;README.txt" />
     <MESSAGE value="GreenVolt Project script updated:&#10;delete_SQLQuery3 - script to delete data." />
     <MESSAGE value="GreenVolt Project script updated:&#10;add_bulk_emp_csv.py add details." />
-    <option name="LAST_COMMIT_MESSAGE" value="GreenVolt Project script updated:&#10;add_bulk_emp_csv.py add details." />
+    <MESSAGE value="GreenVolt Project script updated: add details and purpose." />
+    <option name="LAST_COMMIT_MESSAGE" value="GreenVolt Project script updated: add details and purpose." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
