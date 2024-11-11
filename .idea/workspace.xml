@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="GreenVolt Project adding Employees performance data" />
+    <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="GreenVolt Project adding power bi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +14,8 @@
     <option name="BRANCH" value="GreenVolt/master" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -115,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731223368744</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="GreenVolt Project adding power bi">
+      <option name="closed" value="true" />
+      <created>1731249939372</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731249939372</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,7 +139,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="GreenVolt Project adding Employees performance data" />
-    <option name="LAST_COMMIT_MESSAGE" value="GreenVolt Project adding Employees performance data" />
+    <MESSAGE value="GreenVolt Project adding power bi" />
+    <option name="LAST_COMMIT_MESSAGE" value="GreenVolt Project adding power bi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
