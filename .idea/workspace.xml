@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="GreenVolt Project script updated:&#10;delete_SQLQuery3 - script to delete data.">
+    <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="GreenVolt Project script updated:&#10;add_bulk_emp_csv.py add details.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Add_New_Emp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Add_New_Emp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenVolt-Username.py" beforeDir="false" afterPath="$PROJECT_DIR$/GreenVolt-Username.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreenVolt_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/GreenVolt_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_Age.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_Age.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employees_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/employees_info.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,21 +54,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Add_New_Emp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.GreenVolt-Username.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.add_bulk_emp_csv.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.create_bonus.executor&quot;: &quot;Run&quot;,
-    &quot;Python.create_performances (1).executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/GreenVolt/.venv&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Add_New_Emp.executor": "Run",
+    "Python.GreenVolt-Username.executor": "Run",
+    "Python.add_bulk_emp_csv.executor": "Debug",
+    "Python.check_Age.executor": "Run",
+    "Python.create_bonus.executor": "Run",
+    "Python.create_performances (1).executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/GreenVolt/.venv",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Python.add_bulk_emp_csv">
+}]]></component>
+  <component name="RunManager" selected="Python.GreenVolt-Username">
     <configuration name="Add_New_Emp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GreenVolt" />
       <option name="ENV_FILES" value="" />
@@ -130,6 +136,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="check_Age" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GreenVolt" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/check_Age.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="create_performances (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GreenVolt" />
       <option name="ENV_FILES" value="" />
@@ -152,35 +180,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="create_performances" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GreenVolt" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\X-NSPS\Python - Scripting\pythonProject\xNSPS\GreenVolt\create_performances.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.GreenVolt-Username" />
+        <item itemvalue="Python.check_Age" />
         <item itemvalue="Python.add_bulk_emp_csv" />
         <item itemvalue="Python.create_performances (1)" />
-        <item itemvalue="Python.GreenVolt-Username" />
         <item itemvalue="Python.Add_New_Emp" />
-        <item itemvalue="Python.create_performances" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731336004556</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="GreenVolt Project script updated:&#10;add_bulk_emp_csv.py add details.">
+      <option name="closed" value="true" />
+      <created>1731336360635</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731336360635</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,19 +298,20 @@
     <MESSAGE value="GreenVolt Project script updated:&#10;Add_New_Emp.py&#10;GreenVolt-Username.py&#10;GreenVolt_db.py" />
     <MESSAGE value="GreenVolt Project script updated:&#10;Add_New_Emp.py&#10;GreenVolt-Username.py&#10;GreenVolt_db.py&#10;add bulk emp csv&#10;README.txt" />
     <MESSAGE value="GreenVolt Project script updated:&#10;delete_SQLQuery3 - script to delete data." />
-    <option name="LAST_COMMIT_MESSAGE" value="GreenVolt Project script updated:&#10;delete_SQLQuery3 - script to delete data." />
+    <MESSAGE value="GreenVolt Project script updated:&#10;add_bulk_emp_csv.py add details." />
+    <option name="LAST_COMMIT_MESSAGE" value="GreenVolt Project script updated:&#10;add_bulk_emp_csv.py add details." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Add_New_Emp.py</url>
-          <line>19</line>
+          <line>44</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/GreenVolt-Username.py</url>
-          <line>13</line>
+          <line>23</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">

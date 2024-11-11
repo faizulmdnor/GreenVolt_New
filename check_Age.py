@@ -26,7 +26,7 @@ data['Age'].fillna(0, inplace=True)
 data['Hired_period'].fillna(0, inplace=True)
 data['status'] = data['Age'].apply(lambda age: 'inactive' if age >= 55 else 'active')
 
-data.to_csv('E:/X-NSPS/Python - Scripting/pythonProject/xNSPS/GreenVolt/employees_info.csv')
+data.to_csv('employees_info.csv')
 data_active = data[data['status'] == 'active']
 data_active.drop(columns=['Date_of_Birth', 'Date_Hired', 'Position', 'Department', 'Site', 'Site_Country', 'status', 'Age', 'Hired_period'], inplace=True)
 data_active.reset_index(drop=True, inplace=True)
