@@ -10,7 +10,7 @@ tablename = "Employees"
 
 # Reading a CSV file named 'table_employees.csv' and storing it in a DataFrame named 'data'.
 # This file presumably contains employee information to be processed and loaded into the database.
-data = pd.read_csv('Data Files/table_employees.csv')
+data = pd.read_csv('../Data Files/table_employees.csv')
 
 # Converting the 'Date_of_Birth' column in the DataFrame to datetime format.
 # The 'dayfirst=True' argument interprets dates with the day as the first value, e.g., 'dd/mm/yyyy'.
