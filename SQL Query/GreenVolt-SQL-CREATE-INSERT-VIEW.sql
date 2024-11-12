@@ -114,3 +114,17 @@ CREATE TABLE Employees_Performance(
 	category VARCHAR(15),
 	FOREIGN KEY (emp_id) REFERENCES Employees(emp_id)
 )
+
+CREATE TABLE Monthly_Sales (
+	emp_id INT,
+	YearMonth VARCHAR(7) CHECK (YearMonth LIKE '[1-9][0-9][0-9][0-9]-[0-1][0-9]'),
+	totalSales MONEY,
+	FOREIGN KEY (emp_id) REFERENCES Employees(emp_id)
+);
+/*
+Explanation
+CHECK (YearMonth LIKE '[1-9][0-9][0-9][0-9]-[0-1][0-9]'): This constraint enforces that YearMonth follows a YYYY-MM format.
+[1-9][0-9][0-9][0-9] ensures that the first four characters are a valid year.
+[0-1][0-9] allows only valid two-digit months (00 to 12).
+This constraint won’t allow inserting values with incorrect formats, ensuring that the data meets the YYYY-MM requirement.
+*/

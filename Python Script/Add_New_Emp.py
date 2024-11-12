@@ -20,15 +20,15 @@ tablename = 'Employees'
 # "pos_id" - Position identifiers for job roles or titles within the organization.
 # "status_id" - Employment status identifiers, where '1' might signify active status.
 new_emp = {
-    "First_Name":["Redzuan", "Gary"],
-    "Last_Name":["Ahmad", "McGuirre"],
+    "First_Name":["Shamsuri", "Gary"],
+    "Last_Name":["Mohd Kamil", "McGuirre"],
     "gender_id":[311, 311],
     "origin_country_id":[1000, 7000],
-    "Date_of_Birth":["2004-10-18", "1987-04-14"],
+    "Date_of_Birth":["1994-10-18", "1987-04-14"],
     "Date_Hired":["2024-11-11", "2024-11-11"],
-    "dept_id": [2010, 4010],
-    "site_id": [1002, 1001],
-    "pos_id": [2014, 4013],
+    "dept_id": [3010, 4010],
+    "site_id": [2001, 1001],
+    "pos_id": [3014, 4013],
     "status_id": [1, 1],
 }
 
