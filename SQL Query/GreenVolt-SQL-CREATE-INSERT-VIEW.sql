@@ -128,3 +128,5 @@ CHECK (YearMonth LIKE '[1-9][0-9][0-9][0-9]-[0-1][0-9]'): This constraint enforc
 [0-1][0-9] allows only valid two-digit months (00 to 12).
 This constraint won’t allow inserting values with incorrect formats, ensuring that the data meets the YYYY-MM requirement.
 */
+
+select * from Monthly_Sales

@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="GreenVolt Project script updated: add details and purpose.">
-      <change afterPath="$PROJECT_DIR$/Python Script/Insert_Total_Sales.py" afterDir="false" />
+    <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="This code generates monthly sales data for employees in the Sales department, excluding those with the titles 'Sales Analyst' and 'Sales Engineer.'">
+      <change afterPath="$PROJECT_DIR$/Python Script/Sales.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Script/scratch_01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Script/Add_New_Emp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Script/Add_New_Emp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SQL Query/GreenVolt-SQL-CREATE-INSERT-VIEW.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQL Query/GreenVolt-SQL-CREATE-INSERT-VIEW.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL Query/check_username.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQL Query/check_username.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,25 +52,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Add_New_Emp (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Add_New_Emp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.GreenVolt-Username (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.GreenVolt-Username.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Insert_Total_Sales.executor&quot;: &quot;Run&quot;,
-    &quot;Python.add_bulk_emp_csv.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.check_Age.executor&quot;: &quot;Run&quot;,
-    &quot;Python.create_bonus.executor&quot;: &quot;Run&quot;,
-    &quot;Python.create_performances (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/GreenVolt/.venv&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Add_New_Emp (1).executor": "Run",
+    "Python.Add_New_Emp.executor": "Run",
+    "Python.GreenVolt-Username (1).executor": "Run",
+    "Python.GreenVolt-Username.executor": "Run",
+    "Python.Insert_Total_Sales.executor": "Run",
+    "Python.Sales.executor": "Run",
+    "Python.add_bulk_emp_csv.executor": "Debug",
+    "Python.check_Age.executor": "Run",
+    "Python.create_bonus.executor": "Run",
+    "Python.create_performances (1).executor": "Debug",
+    "Python.scratch_01.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/GreenVolt/Python Script/scratch_01.py",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "two.files.diff.last.used.file": "E:/GreenVolt/Python Script/scratch_01.py"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GreenVolt\Python Script" />
@@ -79,29 +81,7 @@
       <recent name="E:\GreenVolt\SQL Quety" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Insert_Total_Sales">
-    <configuration name="Add_New_Emp (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GreenVolt" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Script" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/Add_New_Emp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Sales">
     <configuration name="GreenVolt-Username (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GreenVolt" />
       <option name="ENV_FILES" value="" />
@@ -124,28 +104,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GreenVolt-Username" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GreenVolt" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\GreenVolt\Python Script\GreenVolt-Username.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Insert_Total_Sales" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GreenVolt" />
       <option name="ENV_FILES" value="" />
@@ -160,6 +118,50 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/Insert_Total_Sales.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Sales" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GreenVolt" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Script" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/Sales.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GreenVolt" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Script" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/scratch_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Sales" />
+        <item itemvalue="Python.scratch_01" />
         <item itemvalue="Python.Insert_Total_Sales" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.GreenVolt-Username (1)" />
-        <item itemvalue="Python.Add_New_Emp (1)" />
-        <item itemvalue="Python.GreenVolt-Username" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +330,31 @@
       <option name="project" value="LOCAL" />
       <updated>1731383247603</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="This code generates monthly sales data for employees in the Sales department, excluding those with the titles 'Sales Analyst' and 'Sales Engineer.'">
+      <option name="closed" value="true" />
+      <created>1731399965814</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731399965814</updated>
+    </task>
+    <task id="LOCAL-00016" summary="This code generates monthly sales data for employees in the Sales department, excluding those with the titles 'Sales Analyst' and 'Sales Engineer.'">
+      <option name="closed" value="true" />
+      <created>1731400059561</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1731400059561</updated>
+    </task>
+    <task id="LOCAL-00017" summary="This code generates monthly sales data for employees in the Sales department, excluding those with the titles 'Sales Analyst' and 'Sales Engineer.'">
+      <option name="closed" value="true" />
+      <created>1731402021949</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1731402021949</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -350,7 +376,8 @@
     <MESSAGE value="GreenVolt Project script updated:&#10;delete_SQLQuery3 - script to delete data." />
     <MESSAGE value="GreenVolt Project script updated:&#10;add_bulk_emp_csv.py add details." />
     <MESSAGE value="GreenVolt Project script updated: add details and purpose." />
-    <option name="LAST_COMMIT_MESSAGE" value="GreenVolt Project script updated: add details and purpose." />
+    <MESSAGE value="This code generates monthly sales data for employees in the Sales department, excluding those with the titles 'Sales Analyst' and 'Sales Engineer.'" />
+    <option name="LAST_COMMIT_MESSAGE" value="This code generates monthly sales data for employees in the Sales department, excluding those with the titles 'Sales Analyst' and 'Sales Engineer.'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
