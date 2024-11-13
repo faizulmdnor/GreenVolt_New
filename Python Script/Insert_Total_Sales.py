@@ -64,7 +64,7 @@ print(df_monthly_sales)
 df_monthly_sales_pivot = df_monthly_sales.pivot(index='emp_id', columns='YearMonth', values='totalSales')
 
 # Step 14: Export the pivoted DataFrame to a CSV file for further use or review
-df_monthly_sales_pivot.to_csv('../Data Files/Total Sales.csv')
+df_monthly_sales_pivot.to_csv('../Data Files/Total Sales_GreenVolt_New.csv')
 
 # Step 15: Print the pivoted DataFrame to review the data structure
 print(df_monthly_sales_pivot)

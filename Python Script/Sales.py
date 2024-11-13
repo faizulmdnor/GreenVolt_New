@@ -95,3 +95,5 @@ Sales_by_Year = pd.DataFrame({
 # Step 7: Display Results
 print("Monthly Sales Data with Prediction:\n", Sales_by_Months, "\n")
 print("Yearly Sales Data with Prediction:\n", Sales_by_Year)
+Sales_by_Months.to_csv('../Data Files/GreenVolt_Monthly_Sales.csv')
+Sales_by_Year.to_csv('../Data Files/GreenVolt_Yearly_Sales.csv')

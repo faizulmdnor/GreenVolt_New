@@ -3,7 +3,7 @@ import pyodbc
 
 # Defining the SQL Server and database connection parameters.
 SERVER = 'FAIZULONXY\\SQLEXPRESS'  # Specifies the server name.
-DATABASE = 'GreenVolt'  # Specifies the database name.
+DATABASE = 'GreenVolt_New'  # Specifies the database name.
 
 # Establishing a connection to the SQL Server database using pyodbc.
 # Trusted_Connection=yes indicates Windows Authentication is used.
