@@ -81,7 +81,7 @@
       <recent name="E:\GreenVolt\SQL Quety" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Sales">
+  <component name="RunManager" selected="Python.scratch_01">
     <configuration name="GreenVolt-Username (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GreenVolt" />
       <option name="ENV_FILES" value="" />
@@ -194,8 +194,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Sales" />
         <item itemvalue="Python.scratch_01" />
+        <item itemvalue="Python.Sales" />
         <item itemvalue="Python.Insert_Total_Sales" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.GreenVolt-Username (1)" />

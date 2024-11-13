@@ -1,3 +1,13 @@
+'''
+Code Explanation
+Step 1: Load data from the GreenVolt_db database.
+Step 2: Prepares data by converting the YearMonth column to datetime and rounding totalSales.
+Step 3: Aggregates sales data by year and month.
+Step 4: Calculates moving averages for both monthly and yearly data.
+Step 5 & Step 6: Uses linear regression to predict future sales for the next three months and three years, respectively.
+Step 7: Combines actual, moving average, and predicted sales data into separate DataFrames (Sales_by_Months and Sales_by_Year) for display.
+'''
+
 # Import necessary libraries
 from matplotlib import pyplot as plt
 import pandas as pd
