@@ -1,20 +1,3 @@
-# Purpose of this script:
-# This script is designed to connect to an SQL Server database ('GreenVolt') and interact with a specified table within that database.
-# It provides functionality to:
-# 1. Query all data from a specified table and load it into a pandas DataFrame.
-# 2. Insert new records into a table while checking for duplicates to avoid inserting the same data multiple times.
-#    If a duplicate record is found, it skips insertion for that record.
-#
-# The script uses a 'greenvolt' class containing two static methods:
-# - query_table(table_name): Executes a SQL query to retrieve all data from the specified table and returns it as a DataFrame.
-# - insert_data_no_duplicate(table_name, df): Checks each row in a DataFrame for existing records in the specified table.
-#   If a record does not exist, it inserts the row; otherwise, it skips it to prevent duplicates.
-#
-# This script includes error handling for database operations, and resources are released by closing the connection and cursor at the end.
-
-# Importing necessary libraries:
-# - pandas to handle data in DataFrame format.
-# - pyodbc to connect to and interact with the SQL Server database.
 import pandas as pd
 import pyodbc
 
@@ -27,14 +10,29 @@ DATABASE = 'GreenVolt'  # Specifies the database name.
 conn = pyodbc.connect(f'DRIVER={{SQL Server}};SERVER={SERVER};DATABASE={DATABASE};Trusted_Connection=yes;')
 cursor = conn.cursor()  # Initializing a cursor to execute queries on the database.
 
-
-# Defining the 'greenvolt' class containing methods for querying and inserting data.
 class greenvolt:
+    """
+    A class to interact with the 'GreenVolt' SQL Server database.
 
-    # Static method to retrieve all data from a specified table.
-    # table_name: The name of the SQL table from which data will be fetched.
+    This class contains methods to:
+    1. Retrieve all data from a specified table in the database.
+    2. Insert new records into a table with duplicate-checking functionality.
+    """
+
     @staticmethod
-    def query_table(table_name):
+    def query_table(table_name: str) -> pd.DataFrame:
+        """
+        Retrieves all data from a specified table in the 'GreenVolt' database.
+
+        This method connects to the specified table within the 'GreenVolt' database and
+        executes a SQL query to fetch all records. The results are loaded into a pandas
+        DataFrame for easy data manipulation.
+
+        :param table_name: Name of the SQL table from which data will be fetched.
+        :type table_name: str
+        :return: A DataFrame containing all records from the specified table.
+        :rtype: pd.DataFrame
+        """
         # SQL query to select all records from the specified table.
         sql_query = f"""
                 SELECT *
@@ -44,11 +42,22 @@ class greenvolt:
         df = pd.read_sql(sql_query, conn)
         return df
 
-    # Static method to insert data into the specified table while checking for duplicates.
-    # table_name: The SQL table where data will be inserted.
-    # df: DataFrame containing the data to be inserted.
     @staticmethod
-    def insert_data_no_duplicate(table_name, df):
+    def insert_data_no_duplicate(table_name: str, df: pd.DataFrame) -> None:
+        """
+        Inserts data from a DataFrame into a specified SQL table, ensuring no duplicate records are inserted.
+
+        This method iterates over each row in the provided DataFrame, checks if the row already exists in
+        the target SQL table (based on all column values), and inserts it only if it does not exist, thereby
+        preventing duplicate entries.
+
+        :param table_name: Name of the SQL table where data will be inserted.
+        :type table_name: str
+        :param df: DataFrame containing the data to be inserted into the table.
+        :type df: pd.DataFrame
+        :return: None
+        :rtype: None
+        """
         # Preparing the SQL statement components for insertion and duplicate checks.
         columns = ', '.join(df.columns)  # Converts column names to a comma-separated string.
         placeholder = ', '.join('?' * len(df.columns))  # Placeholder for parameterized query.
@@ -82,7 +91,7 @@ class greenvolt:
                     conn.commit()  # Commits the transaction to save changes.
                     print(f"Insert data {tuple(row)} into {table_name} - SUCCESS")
                 else:
-                    print(f"Record already exists in the database.{tuple(row)}")  # Message if duplicate found.
+                    print(f"Record already exists in the database. {tuple(row)}")  # Message if duplicate found.
 
         # Rollback if an exception occurs during insertion.
         except Exception as err:
