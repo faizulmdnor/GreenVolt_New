@@ -1,0 +1,48 @@
+pos_id,dept_id,Position
+3011,3010,Chief Executive Officer
+3012,3010,Chief Financial Officer
+3013,3010,Chief Information Officer
+1011,1010,Data Analysis Analyst
+1012,1010,Data Analysis Engineer
+1013,1010,Data Analysis Executive
+1014,1010,Data Analysis Manager
+2011,2010,Engineering Analyst
+2012,2010,Engineering Engineer
+2013,2010,Engineering Executive
+2014,2010,Engineering Manager
+3014,3010,Executive Management Analyst
+3015,3010,Executive Management Engineer
+3016,3010,Executive Management Executive
+3017,3010,Executive Management Manager
+4011,4010,Finance Analyst
+4012,4010,Finance Engineer
+4013,4010,Finance Executive
+4014,4010,Finance Manager
+5011,5010,HR Analyst
+5012,5010,HR Engineer
+5013,5010,HR Executive
+5014,5010,HR Manager
+6011,6010,Information Technology Analyst
+6012,6010,Information Technology Engineer
+6013,6010,Information Technology Executive
+6014,6010,Information Technology Manager
+9011,9010,Kuala Lumpur Site Manager
+9012,9010,Kulim Site Manager
+7011,7010,Safety Analyst
+7012,7010,Safety Engineer
+7013,7010,Safety Executive
+7014,7010,Safety Manager
+8011,8010,Sales Analyst
+8012,8010,Sales Engineer
+8013,8010,Sales Executive
+8014,8010,Sales Manager
+9013,9010,Senai Site Manager
+9014,9010,Site Management Analyst
+9015,9010,Site Management Engineer
+9016,9010,Site Management Executive
+9017,9010,Site Management Manager
+9051,9050,Site Support Analyst
+9052,9050,Site Support Engineer
+9053,9050,Site Support Executive
+9054,9050,Site Support Manager
+9018,9010,Surabaya Site Manager
