@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="add description and docstring.">
+    <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="Guideline - installing Python, SQL Express, and PyCharm.">
+      <change afterPath="$PROJECT_DIR$/Python Script/sales_testing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,28 +50,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Add_New_Emp (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Add_New_Emp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.GreenVolt-Username (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.GreenVolt-Username.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Insert_Total_Sales.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Sales.executor&quot;: &quot;Run&quot;,
-    &quot;Python.add_bulk_emp_csv.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.check_Age.executor&quot;: &quot;Run&quot;,
-    &quot;Python.create_bonus.executor&quot;: &quot;Run&quot;,
-    &quot;Python.create_performances (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.scratch_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/GreenVolt/Python Script/scratch_01.py&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;E:/GreenVolt/Python Script/scratch_01.py&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Add_New_Emp (1).executor": "Run",
+    "Python.Add_New_Emp.executor": "Run",
+    "Python.GreenVolt-Username (1).executor": "Run",
+    "Python.GreenVolt-Username.executor": "Run",
+    "Python.Insert_Total_Sales.executor": "Run",
+    "Python.Sales.executor": "Run",
+    "Python.add_bulk_emp_csv.executor": "Run",
+    "Python.add_data_into_GreenVolt_New.executor": "Run",
+    "Python.check_Age.executor": "Run",
+    "Python.create_bonus.executor": "Run",
+    "Python.create_performances (1).executor": "Debug",
+    "Python.create_performances.executor": "Run",
+    "Python.sales_testing.executor": "Debug",
+    "Python.scratch_01.executor": "Run",
+    "Python.scratch_7.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/GreenVolt/Python Script/scratch_01.py",
+    "settings.editor.selected.configurable": "Errors",
+    "two.files.diff.last.used.file": "E:/GreenVolt/Python Script/scratch_01.py"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GreenVolt\Python Script" />
@@ -78,29 +89,7 @@
       <recent name="E:\GreenVolt\SQL Quety" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.scratch_01">
-    <configuration name="GreenVolt-Username (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GreenVolt" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Script" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/GreenVolt-Username.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.sales_testing">
     <configuration name="Insert_Total_Sales" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GreenVolt" />
       <option name="ENV_FILES" value="" />
@@ -145,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scratch_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="create_performances" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GreenVolt" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,7 +147,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/scratch_01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/create_performances.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sales_testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GreenVolt" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,7 +169,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/sales_testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch_7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GreenVolt" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,18 +202,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.scratch_01" />
+        <item itemvalue="Python.sales_testing" />
+        <item itemvalue="Python.scratch_7" />
         <item itemvalue="Python.Sales" />
         <item itemvalue="Python.Insert_Total_Sales" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.GreenVolt-Username (1)" />
+        <item itemvalue="Python.create_performances" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -391,7 +402,31 @@
       <option name="project" value="LOCAL" />
       <updated>1731485034827</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="greenvolt_New data setup">
+      <option name="closed" value="true" />
+      <created>1731492990466</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1731492990466</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Guideline - installing Python, SQL Express, and PyCharm.">
+      <option name="closed" value="true" />
+      <created>1731555561315</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1731555561315</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Guideline - installing Python, SQL Express, and PyCharm.">
+      <option name="closed" value="true" />
+      <created>1731555765366</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1731555765366</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -416,7 +451,9 @@
     <MESSAGE value="This code generates monthly sales data for employees in the Sales department, excluding those with the titles 'Sales Analyst' and 'Sales Engineer.'" />
     <MESSAGE value="Add unit tests for monthly and yearly sales predictions" />
     <MESSAGE value="add description and docstring." />
-    <option name="LAST_COMMIT_MESSAGE" value="add description and docstring." />
+    <MESSAGE value="greenvolt_New data setup" />
+    <MESSAGE value="Guideline - installing Python, SQL Express, and PyCharm." />
+    <option name="LAST_COMMIT_MESSAGE" value="Guideline - installing Python, SQL Express, and PyCharm." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -426,7 +463,19 @@
           <line>44</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python Script/sales_testing.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>
