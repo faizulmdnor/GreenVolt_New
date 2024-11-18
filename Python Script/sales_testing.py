@@ -57,7 +57,7 @@ def arima_model(colname, forecast_period, df, d):
     """
 
     # Fit ARIMA model
-    arima = ARIMA(df[colname], order=(1, 0, 0))
+    arima = ARIMA(df[colname], order=(3, 3, 0))
     model_arima = arima.fit()
     model = model_arima
 
@@ -107,7 +107,7 @@ def sarimax_model(colname, forecast_period, df, d):
     """
 
     # Fit SARIMAX model
-    model_sarima = SARIMAX(df[colname], order=(1, 1, 1), seasonal_order=(1, 1, 1, 12))
+    model_sarima = SARIMAX(df[colname], order=(2, 1, 1), seasonal_order=(2, 1, 1, 12))
     model_sarima_fitted = model_sarima.fit(disp=False)
     model = model_sarima_fitted
 
@@ -169,13 +169,13 @@ df_sales_Months['YearMonth'] = df_sales_Months['YearMonth'].dt.strftime("%Y-%m")
 
 # ARIMA
 df_sales_Years_Predicted_arima = arima_model(colname='TotalSales_Year', forecast_period=3, df=df_sales_Years, d='Year')
-df_sales_Months_Predicted_arima = arima_model(colname='TotalSales_Month', forecast_period=3, df=df_sales_Months, d='Month')
+df_sales_Months_Predicted_arima = arima_model(colname='TotalSales_Month', forecast_period=12, df=df_sales_Months, d='Month')
 df_sales_Months_Predicted_arima['TotalSales'] = df_sales_Months['TotalSales_Month'].apply(lambda value: f"{value:.2f}")
 df_sales_Years_Predicted_arima['TotalSales'] = df_sales_Years['TotalSales_Year'].apply(lambda value: f"{value:.2f}")
 
 # SARIMAX
 df_sales_Years_Predicted_sarimax = sarimax_model(colname='TotalSales_Year', forecast_period=3, df=df_sales_Years, d='Year')
-df_sales_Months_Predicted_sarimax = sarimax_model(colname='TotalSales_Month', forecast_period=3, df=df_sales_Months, d='Month')
+df_sales_Months_Predicted_sarimax = sarimax_model(colname='TotalSales_Month', forecast_period=12, df=df_sales_Months, d='Month')
 df_sales_Months_Predicted_sarimax['TotalSales'] = df_sales_Months['TotalSales_Month'].apply(lambda value: f"{value:.2f}")
 df_sales_Years_Predicted_sarimax['TotalSales'] = df_sales_Years['TotalSales_Year'].apply(lambda value: f"{value:.2f}")
 
