@@ -37,16 +37,27 @@ def plot_sales_chart(df, title):
     )
 
 def arima_model(colname, forecast_period, df, d):
-    '''
 
+    '''
+    order=(0, 0, 1): This specifies the parameters of the ARIMA model:
+    AR (AutoRegressive): The first parameter (0) is the order of the autoregressive part. An AR(0) means that the model does not use any past values of the series for predictions. In other words, it does not include any lag terms (previous values in the series) in its calculation.
+    I (Integrated): The second parameter (0) represents the order of differencing required to make the series stationary. A value of 0 means no differencing is applied, implying that the series is already stationary (its statistical properties do not change over time).
+    MA (Moving Average): The third parameter (1) is the order of the moving average part. An MA(1) model uses the past residual errors (the differences between the predicted and actual values) for forecasting. This means the model will use the previous period's error to adjust future predictions.
     :param colname:
     :param forecast_period:
     :param df:
     :param d:
     :return:
     '''
+
+    """    
+    AutoRegressive = 1
+    Integrated = 0
+    MovingAverage = 0
+    """
+
     # Fit ARIMA model
-    arima = ARIMA(df[colname], order=(0, 1, 1))
+    arima = ARIMA(df[colname], order=(3, 3, 0))
     model_arima = arima.fit()
     model = model_arima
 
@@ -88,8 +99,15 @@ def sarimax_model(colname, forecast_period, df, d):
     :param d:
     :return:
     '''
+
+    """ 
+    AutoRegressive = 1
+    Integrated = 1
+    MovingAverage = 1
+    """
+
     # Fit SARIMAX model
-    model_sarima = SARIMAX(df[colname], order=(0, 1, 1), seasonal_order=(1, 1, 1, 12))
+    model_sarima = SARIMAX(df[colname], order=(2, 1, 1), seasonal_order=(2, 1, 1, 12))
     model_sarima_fitted = model_sarima.fit(disp=False)
     model = model_sarima_fitted
 
@@ -151,13 +169,13 @@ df_sales_Months['YearMonth'] = df_sales_Months['YearMonth'].dt.strftime("%Y-%m")
 
 # ARIMA
 df_sales_Years_Predicted_arima = arima_model(colname='TotalSales_Year', forecast_period=3, df=df_sales_Years, d='Year')
-df_sales_Months_Predicted_arima = arima_model(colname='TotalSales_Month', forecast_period=3, df=df_sales_Months, d='Month')
+df_sales_Months_Predicted_arima = arima_model(colname='TotalSales_Month', forecast_period=12, df=df_sales_Months, d='Month')
 df_sales_Months_Predicted_arima['TotalSales'] = df_sales_Months['TotalSales_Month'].apply(lambda value: f"{value:.2f}")
 df_sales_Years_Predicted_arima['TotalSales'] = df_sales_Years['TotalSales_Year'].apply(lambda value: f"{value:.2f}")
 
 # SARIMAX
 df_sales_Years_Predicted_sarimax = sarimax_model(colname='TotalSales_Year', forecast_period=3, df=df_sales_Years, d='Year')
-df_sales_Months_Predicted_sarimax = sarimax_model(colname='TotalSales_Month', forecast_period=3, df=df_sales_Months, d='Month')
+df_sales_Months_Predicted_sarimax = sarimax_model(colname='TotalSales_Month', forecast_period=12, df=df_sales_Months, d='Month')
 df_sales_Months_Predicted_sarimax['TotalSales'] = df_sales_Months['TotalSales_Month'].apply(lambda value: f"{value:.2f}")
 df_sales_Years_Predicted_sarimax['TotalSales'] = df_sales_Years['TotalSales_Year'].apply(lambda value: f"{value:.2f}")
 
@@ -181,5 +199,3 @@ plt.figure()
 plot_sales_chart(df=df_sales_Years_Predicted_sarimax, title='SARIMAX Model: Year')
 plt.ioff()
 plt.show()
-
-

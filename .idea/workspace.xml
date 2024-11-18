@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="SARIMAX vs. ARIMA">
+      <change afterPath="$PROJECT_DIR$/Python Script/GreenVold_Predicted.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Script/Sales.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Script/Sales.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python Script/sales_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Script/sales_testing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,38 +52,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Add_New_Emp (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Add_New_Emp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.GreenVolt-Username (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.GreenVolt-Username.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Insert_Total_Sales.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Sales.executor&quot;: &quot;Run&quot;,
-    &quot;Python.add_bulk_emp_csv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.add_data_into_GreenVolt_New.executor&quot;: &quot;Run&quot;,
-    &quot;Python.check_Age.executor&quot;: &quot;Run&quot;,
-    &quot;Python.create_bonus.executor&quot;: &quot;Run&quot;,
-    &quot;Python.create_performances (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.create_performances.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sales_testing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch_7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/GreenVolt/Python Script/Sales.py&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;E:/GreenVolt/Python Script/Sales.py&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Add_New_Emp (1).executor": "Run",
+    "Python.Add_New_Emp.executor": "Run",
+    "Python.GreenVolt-Username (1).executor": "Run",
+    "Python.GreenVolt-Username.executor": "Run",
+    "Python.Insert_Total_Sales.executor": "Run",
+    "Python.Sales.executor": "Run",
+    "Python.add_bulk_emp_csv.executor": "Run",
+    "Python.add_data_into_GreenVolt_New.executor": "Run",
+    "Python.check_Age.executor": "Run",
+    "Python.create_bonus.executor": "Run",
+    "Python.create_performances (1).executor": "Debug",
+    "Python.create_performances.executor": "Run",
+    "Python.sales_testing.executor": "Run",
+    "Python.scratch_01.executor": "Run",
+    "Python.scratch_7.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/GreenVolt/Python Script/Sales.py",
+    "settings.editor.selected.configurable": "Errors",
+    "two.files.diff.last.used.file": "E:/GreenVolt/Python Script/Sales.py"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GreenVolt\Python Script" />
@@ -434,7 +436,31 @@
       <option name="project" value="LOCAL" />
       <updated>1731669364543</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="SARIMAX vs. ARIMA">
+      <option name="closed" value="true" />
+      <created>1731670736955</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1731670736955</updated>
+    </task>
+    <task id="LOCAL-00028" summary="SARIMAX vs. ARIMA">
+      <option name="closed" value="true" />
+      <created>1731894148226</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1731894148226</updated>
+    </task>
+    <task id="LOCAL-00029" summary="SARIMAX vs. ARIMA">
+      <option name="closed" value="true" />
+      <created>1731894337113</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1731894337113</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -474,13 +500,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Python Script/sales_testing.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="53" />
+          <line>12</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Python Script/sales_testing.py</url>
-          <line>170</line>
-          <option name="timeStamp" value="54" />
+          <line>9</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
