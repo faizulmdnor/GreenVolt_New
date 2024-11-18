@@ -199,5 +199,3 @@ plt.figure()
 plot_sales_chart(df=df_sales_Years_Predicted_sarimax, title='SARIMAX Model: Year')
 plt.ioff()
 plt.show()
-
-
