@@ -17,8 +17,6 @@ class arima_predicted:
 
         forecast_start_idx = len(df)
 
-        print(df.loc[forecast_start_idx - 1, colname])
-
         for i in range(forecast_period):
             df.loc[forecast_start_idx + i, f'Predicted_{colname}'] = forecast.iloc[i]
             df.loc[forecast_start_idx + i, period_name] = forecast.index[i]
