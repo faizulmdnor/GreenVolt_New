@@ -21,8 +21,6 @@ class arima_predicted:
             df.loc[forecast_start_idx + i, f'Predicted_{colname}'] = forecast.iloc[i]
             df.loc[forecast_start_idx + i, period_name] = forecast.index[i]
 
-
-
         df[f'Predicted_{colname}'] = df[f'Predicted_{colname}'].round(2)
 
         df = df[[period_name, colname, f'Predicted_{colname}']]

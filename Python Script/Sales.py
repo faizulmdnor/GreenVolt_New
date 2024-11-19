@@ -57,7 +57,7 @@ def arima_model(colname, forecast_period, df, d):
     """
 
     # Fit ARIMA model
-    arima = ARIMA(df[colname], order=(3, 3, 0))
+    arima = ARIMA(df[colname], order=(1, 1, 1))
     model_arima = arima.fit()
     model = model_arima
 
@@ -107,7 +107,7 @@ def sarimax_model(colname, forecast_period, df, d):
     """
 
     # Fit SARIMAX model
-    model_sarima = SARIMAX(df[colname], order=(2, 1, 1), seasonal_order=(2, 1, 1, 12))
+    model_sarima = SARIMAX(df[colname], order=(1, 1, 1), seasonal_order=(1, 1, 1, 12))
     model_sarima_fitted = model_sarima.fit(disp=False)
     model = model_sarima_fitted
 
