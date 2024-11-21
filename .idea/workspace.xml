@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="SARIMAX vs. ARIMA">
+      <change afterPath="$PROJECT_DIR$/Python Script/random_Sales_and_Prediction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Script/GreenVold_Predicted.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Script/GreenVold_Predicted.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Script/Sales.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Script/Sales.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Script/sales_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Script/sales_testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL Query/GreenVolt-SQL-CREATE-INSERT-VIEW.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQL Query/GreenVolt-SQL-CREATE-INSERT-VIEW.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +65,7 @@
     "Python.create_bonus.executor": "Run",
     "Python.create_performances (1).executor": "Debug",
     "Python.create_performances.executor": "Run",
+    "Python.random_Sales_and_Prediction.executor": "Run",
     "Python.sales_testing.executor": "Run",
     "Python.scratch_01.executor": "Run",
     "Python.scratch_7.executor": "Run",
@@ -91,7 +91,7 @@
       <recent name="E:\GreenVolt\SQL Quety" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sales_testing">
+  <component name="RunManager" selected="Python.random_Sales_and_Prediction">
     <configuration name="Insert_Total_Sales" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GreenVolt" />
       <option name="ENV_FILES" value="" />
@@ -136,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="create_performances" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="random_Sales_and_Prediction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GreenVolt" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,7 +149,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/create_performances.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/random_Sales_and_Prediction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.random_Sales_and_Prediction" />
         <item itemvalue="Python.sales_testing" />
         <item itemvalue="Python.Sales" />
         <item itemvalue="Python.scratch_7" />
         <item itemvalue="Python.Insert_Total_Sales" />
-        <item itemvalue="Python.create_performances" />
       </list>
     </recent_temporary>
   </component>
@@ -484,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731918357964</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="SARIMAX vs. ARIMA">
+      <option name="closed" value="true" />
+      <created>1732021414567</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1732021414567</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
