@@ -1,5 +1,4 @@
 import random
-
 import pandas as pd
 from matplotlib import pyplot as plt
 from statsmodels.tsa.arima.model import ARIMA
