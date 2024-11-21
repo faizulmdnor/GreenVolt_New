@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="SARIMAX vs. ARIMA">
-      <change afterPath="$PROJECT_DIR$/Python Script/random_Sales_and_Prediction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL Query/GreenVolt-SQL-CREATE-INSERT-VIEW.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQL Query/GreenVolt-SQL-CREATE-INSERT-VIEW.sql" afterDir="false" />
+    <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="random_Sales_and_Prediction.py&#10;create random Monthly Sales data by customer and total sales.">
+      <change beforePath="$PROJECT_DIR$/Python Script/random_Sales_and_Prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Script/random_Sales_and_Prediction.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -492,7 +490,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732021414567</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="random_Sales_and_Prediction.py&#10;create random Monthly Sales data by customer and total sales.">
+      <option name="closed" value="true" />
+      <created>1732199483326</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1732199483326</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -520,7 +526,8 @@
     <MESSAGE value="greenvolt_New data setup" />
     <MESSAGE value="Guideline - installing Python, SQL Express, and PyCharm." />
     <MESSAGE value="SARIMAX vs. ARIMA" />
-    <option name="LAST_COMMIT_MESSAGE" value="SARIMAX vs. ARIMA" />
+    <MESSAGE value="random_Sales_and_Prediction.py&#10;create random Monthly Sales data by customer and total sales." />
+    <option name="LAST_COMMIT_MESSAGE" value="random_Sales_and_Prediction.py&#10;create random Monthly Sales data by customer and total sales." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

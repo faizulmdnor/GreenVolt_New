@@ -61,6 +61,8 @@ def plot_graph(title, df, figure):
     plt.plot(df['Timeline'], df['total_sales'].astype(float), color='b', marker='x')
     plt.plot(df['Timeline'], df['Predicted_Sales'].astype(float), color='r', marker='s', linestyle='dotted')
     plt.title(title)
+    plt.ylabel('Sales(RM)')
+    plt.xlabel('Month')
     plt.legend()
 
 def arima_prediction(df):
@@ -98,8 +100,6 @@ def forecast_sales(df):
 
     monthly_total_sales_vs_forecast = arima_prediction(df_months)
 
-
-
     plot_graph(title=total_sales_title, df=monthly_total_sales_vs_forecast, figure=1)
 
     f=2
@@ -113,6 +113,7 @@ def forecast_sales(df):
         customer_title = f"{customer}: Total Sales Vs. Forecasted Sales from {min_month} to {max_month}"
         plot_graph(title=customer_title, df=df_customer_sales_vs_predict, figure=f)
         f += 1
+
     plt.show()
 
 df = create_data()
