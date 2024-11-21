@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="random_Sales_and_Prediction.py&#10;create random Monthly Sales data by customer and total sales.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Files/total_charges.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data Files/total_charges.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python Script/random_Sales_and_Prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Script/random_Sales_and_Prediction.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,9 +74,9 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/GreenVolt/Python Script/Sales.py",
+    "last_opened_file_path": "E:/GreenVolt/Python Script/random_Sales_and_Prediction.py",
     "settings.editor.selected.configurable": "Errors",
-    "two.files.diff.last.used.file": "E:/GreenVolt/Python Script/Sales.py"
+    "two.files.diff.last.used.file": "E:/GreenVolt/Python Script/random_Sales_and_Prediction.py"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -203,9 +205,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.random_Sales_and_Prediction" />
+        <item itemvalue="Python.scratch_7" />
         <item itemvalue="Python.sales_testing" />
         <item itemvalue="Python.Sales" />
-        <item itemvalue="Python.scratch_7" />
         <item itemvalue="Python.Insert_Total_Sales" />
       </list>
     </recent_temporary>
@@ -498,7 +500,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732199483326</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="random_Sales_and_Prediction.py&#10;create random Monthly Sales data by customer and total sales.">
+      <option name="closed" value="true" />
+      <created>1732199834509</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1732199834509</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
