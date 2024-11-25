@@ -6,10 +6,12 @@ from statsmodels.tsa.arima.model import ARIMA
 
 def create_data():
     """
-    Generate a DataFrame with random sales data for multiple customers over a date range.
+    Generates and returns a DataFrame with random sales data for a predefined set of customers over
+    a specified date range. The data includes randomly generated sales amounts and ensures no
+    duplicate customer entries per day.
 
-    Returns:
-        pd.DataFrame: DataFrame containing the generated sales data.
+    :return: DataFrame containing the generated sales data
+    :rtype: pandas.DataFrame
     """
     # Define customer data
     customers = {
@@ -72,12 +74,20 @@ def create_data():
 
 def plot_graph(title, df, figure):
     """
-    Plot sales data and predicted sales.
+    Plots a graph of total and predicted sales over time using the provided figure and data frame.
 
-    Args:
-        title (str): Title of the plot.
-        df (pd.DataFrame): DataFrame containing sales data and predictions.
-        figure (int): Figure number for the plot.
+    This function takes a figure, a data frame containing sales data, and a title for the plot. It
+    creates a plot with two lines, one representing the total sales and the other representing the
+    predicted sales, and applies the specified title to the plot. It also sets the labels for the
+    x-axis and y-axis, rotates the x-ticks for better readability, and displays a legend.
+
+    :param title: The title for the plot.
+    :type title: str
+    :param df: The data frame containing 'Timeline', 'total_sales', and 'Predicted_Sales' columns.
+    :type df: DataFrame
+    :param figure: The figure in which the graph is to be plotted.
+    :type figure: Figure
+    :return: None
     """
     plt.figure(figure)
     plt.plot(df['Timeline'], df['total_sales'].astype(float), color='b', marker='s', linestyle='-',
@@ -93,13 +103,17 @@ def plot_graph(title, df, figure):
 
 def arima_prediction(df):
     """
-    Generate sales predictions using the ARIMA model.
+    Generates future sales forecasts using the ARIMA model and combines the forecasted data
+    with the actual sales data in a DataFrame.
 
-    Args:
-        df (pd.DataFrame): DataFrame containing sales data.
+    This function first fits an ARIMA model to the given sales data, then forecasts the future
+    sales for a defined period. The forecasted sales data is formatted and merged with the
+    actual sales data.
 
-    Returns:
-        pd.DataFrame: DataFrame with actual and predicted sales.
+    :param df: A DataFrame containing sales data with the columns 'total_sales' and 'Timeline'.
+    :type df: pandas.DataFrame
+    :return: A DataFrame containing the actual and forecasted sales with the timeline.
+    :rtype: pandas.DataFrame
     """
     forecast_period = 6  # Define the forecast period
     arima = ARIMA(df['total_sales'], order=(0, 0, 6))  # Fit ARIMA model
@@ -129,10 +143,16 @@ def arima_prediction(df):
 
 def forecast_sales(df):
     """
-    Forecast sales data and plot the results.
+    Forecast and plot total sales and individual customer sales over months.
 
-    Args:
-        df (pd.DataFrame): DataFrame containing sales data.
+    This function processes the given sales data to generate and plot forecasts of
+    total sales and sales for each customer. It uses ARIMA for forecasting and
+    visualizes the results using line plots.
+
+    :param df: A pandas DataFrame containing sales data with 'Date', 'total_sales',
+               and 'Customer_name' columns.
+    :type df: pandas.DataFrame
+    :return: None
     """
     # Convert dates to month format and aggregate sales by month
     df['Month'] = pd.to_datetime(df['Date']).dt.strftime('%Y-%m')
