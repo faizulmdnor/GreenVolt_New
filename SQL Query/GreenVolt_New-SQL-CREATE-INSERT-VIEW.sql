@@ -130,3 +130,14 @@ This constraint won’t allow inserting values with incorrect formats, ensuring th
 */
 
 select * from Monthly_Sales
+
+CREATE TABLE  Salary(
+	emp_id INT,
+	salary MONEY
+	FOREIGN KEY (emp_id) REFERENCES Employees(emp_id)
+);
+
+SELECT e.*, s.salary
+FROM vw_Employees e
+left join Salary s
+ON e.emp_id = s.emp_id

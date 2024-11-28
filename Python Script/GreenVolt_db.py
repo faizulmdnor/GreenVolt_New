@@ -12,14 +12,20 @@ cursor = conn.cursor()  # Initializing a cursor to execute queries on the databa
 
 class greenvolt:
     """
-    A class to interact with the 'GreenVolt' SQL Server database.
+    Provides database interaction functionalities for the 'GreenVolt' database.
 
-    This class contains methods to:
-    1. Retrieve all data from a specified table in the database.
-    2. Insert new records into a table with duplicate-checking functionality.
+    This class contains methods for executing custom SQL queries and managing
+    data within the 'GreenVolt' database. It allows retrieving data from specified
+    tables and inserting data into tables while avoiding duplicate records. The
+    static methods allow flexibility in querying and data manipulation without
+    needing to instantiate the class.
     """
 
     @staticmethod
+    def custom_query(sql_query):
+        df = pd.read_sql(sql_query, conn)
+        return df
+
     def query_table(table_name: str) -> pd.DataFrame:
         """
         Retrieves all data from a specified table in the 'GreenVolt' database.

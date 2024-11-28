@@ -2,7 +2,12 @@ import random
 import pandas as pd
 from matplotlib import pyplot as plt
 from statsmodels.tsa.arima.model import ARIMA
+from datetime import datetime 
 
+today = datetime.today()
+
+enddate = today.replace(day=1) - pd.DateOffset(days=1)
+enddate = enddate.strftime('%Y-%m-%d')
 
 def create_data():
     """
@@ -23,7 +28,7 @@ def create_data():
     customer_map = dict(zip(customers['customer_id'], customers['customer']))
 
     # Generate date range
-    dates = pd.date_range('2022-01-01', '2024-10-31')
+    dates = pd.date_range(start='2022-01-01', end=enddate)
     datelist = dates.tolist()
 
     # Initialize list for sales data
@@ -69,6 +74,7 @@ def create_data():
 
     # Save DataFrame to CSV file
     total_sales.to_csv('../Data Files/total_charges.csv', index=False)
+    sorted(total_sales['Date'])
     return total_sales
 
 

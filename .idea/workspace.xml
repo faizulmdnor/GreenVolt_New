@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="random_Sales_and_Prediction.py&#10;create random Monthly Sales data by customer and total sales.&#10;add docstrings and comments">
+    <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="Reduce data points in total_charges.csv file&#10;&#10;Trimmed down the total records from 2,694 to 2,541 by removing specific entries throughout the file. This optimization helps streamline data processing and enhances performance without losing critical information.">
+      <change afterPath="$PROJECT_DIR$/Python Script/Correletion_Reliability_Vs_Age.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Script/Create_CSV_Data_Reliability_Vs_Age.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python Script/Salary_Analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Files/total_charges.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data Files/total_charges.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Script/GreenVolt_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Script/GreenVolt_db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,39 +53,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Add_New_Emp (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Add_New_Emp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.GreenVolt-Username (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.GreenVolt-Username.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Insert_Total_Sales.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Sales.executor&quot;: &quot;Run&quot;,
-    &quot;Python.add_bulk_emp_csv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.add_data_into_GreenVolt_New.executor&quot;: &quot;Run&quot;,
-    &quot;Python.check_Age.executor&quot;: &quot;Run&quot;,
-    &quot;Python.create_bonus.executor&quot;: &quot;Run&quot;,
-    &quot;Python.create_performances (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.create_performances.executor&quot;: &quot;Run&quot;,
-    &quot;Python.random_Sales_and_Prediction.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sales_testing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch_7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/GreenVolt/Python Script/random_Sales_and_Prediction.py&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;E:/GreenVolt/Python Script/random_Sales_and_Prediction.py&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Add_New_Emp (1).executor": "Run",
+    "Python.Add_New_Emp.executor": "Run",
+    "Python.Correletion_Reliability_Vs_Age.executor": "Run",
+    "Python.Create_CSV_Data_Reliability_Vs_Age.executor": "Run",
+    "Python.Example_pyspark.executor": "Run",
+    "Python.GreenVold_Predicted.executor": "Run",
+    "Python.GreenVolt-Username (1).executor": "Run",
+    "Python.GreenVolt-Username.executor": "Run",
+    "Python.Insert_Salary.executor": "Run",
+    "Python.Insert_Total_Sales.executor": "Run",
+    "Python.Salary_Analysis.executor": "Run",
+    "Python.Sales.executor": "Run",
+    "Python.add_bulk_emp_csv.executor": "Run",
+    "Python.add_data_into_GreenVolt_New.executor": "Run",
+    "Python.check_Age.executor": "Run",
+    "Python.create_bonus.executor": "Run",
+    "Python.create_performances (1).executor": "Debug",
+    "Python.create_performances.executor": "Run",
+    "Python.random_Sales_and_Prediction.executor": "Run",
+    "Python.sales_testing.executor": "Debug",
+    "Python.scratch_01.executor": "Run",
+    "Python.scratch_7.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/GreenVolt/Python Script/random_Sales_and_Prediction.py",
+    "settings.editor.selected.configurable": "Errors",
+    "two.files.diff.last.used.file": "E:/GreenVolt/Python Script/random_Sales_and_Prediction.py"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GreenVolt\Python Script" />
@@ -90,8 +99,8 @@
       <recent name="E:\GreenVolt\SQL Quety" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.random_Sales_and_Prediction">
-    <configuration name="Insert_Total_Sales" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Correletion_Reliability_Vs_Age">
+    <configuration name="Correletion_Reliability_Vs_Age" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GreenVolt" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,7 +113,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/Insert_Total_Sales.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/Correletion_Reliability_Vs_Age.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Sales" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Create_CSV_Data_Reliability_Vs_Age" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GreenVolt" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,7 +135,51 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/Sales.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/Create_CSV_Data_Reliability_Vs_Age.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Insert_Salary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GreenVolt" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Script" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/Insert_Salary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Salary_Analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GreenVolt" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Script" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/Salary_Analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,57 +210,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sales_testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GreenVolt" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Script" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/sales_testing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="scratch_7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GreenVolt" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Correletion_Reliability_Vs_Age" />
+        <item itemvalue="Python.Create_CSV_Data_Reliability_Vs_Age" />
+        <item itemvalue="Python.Salary_Analysis" />
+        <item itemvalue="Python.Insert_Salary" />
         <item itemvalue="Python.random_Sales_and_Prediction" />
-        <item itemvalue="Python.scratch_7" />
-        <item itemvalue="Python.sales_testing" />
-        <item itemvalue="Python.Sales" />
-        <item itemvalue="Python.Insert_Total_Sales" />
       </list>
     </recent_temporary>
   </component>
@@ -523,7 +532,39 @@
       <option name="project" value="LOCAL" />
       <updated>1732201334363</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="add EmpPerform query">
+      <option name="closed" value="true" />
+      <created>1732500541319</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1732500541319</updated>
+    </task>
+    <task id="LOCAL-00039" summary="add documentataion for random_Sales_and_Prediction.py">
+      <option name="closed" value="true" />
+      <created>1732500801789</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1732500801789</updated>
+    </task>
+    <task id="LOCAL-00040" summary="add documentataion for random_Sales_and_Prediction.py">
+      <option name="closed" value="true" />
+      <created>1732775319102</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1732775319102</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Reduce data points in total_charges.csv file&#10;&#10;Trimmed down the total records from 2,694 to 2,541 by removing specific entries throughout the file. This optimization helps streamline data processing and enhances performance without losing critical information.">
+      <option name="closed" value="true" />
+      <created>1733127323688</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1733127323689</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -553,7 +594,11 @@
     <MESSAGE value="SARIMAX vs. ARIMA" />
     <MESSAGE value="random_Sales_and_Prediction.py&#10;create random Monthly Sales data by customer and total sales." />
     <MESSAGE value="random_Sales_and_Prediction.py&#10;create random Monthly Sales data by customer and total sales.&#10;add docstrings and comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="random_Sales_and_Prediction.py&#10;create random Monthly Sales data by customer and total sales.&#10;add docstrings and comments" />
+    <MESSAGE value="add EmpPerform query" />
+    <MESSAGE value="add documentataion for random_Sales_and_Prediction.py" />
+    <MESSAGE value="add documentataion for random_Sales_and_Prediction.pyReduce total_charges.csv file size.&#10;&#10;Removed redundant entries from the total_charges.csv file to optimize file size and improve data processing efficiency. This cleanup ensures that only essential and accurate data is retained for further analysis." />
+    <MESSAGE value="Reduce data points in total_charges.csv file&#10;&#10;Trimmed down the total records from 2,694 to 2,541 by removing specific entries throughout the file. This optimization helps streamline data processing and enhances performance without losing critical information." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reduce data points in total_charges.csv file&#10;&#10;Trimmed down the total records from 2,694 to 2,541 by removing specific entries throughout the file. This optimization helps streamline data processing and enhances performance without losing critical information." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -562,6 +607,11 @@
           <url>file://$PROJECT_DIR$/Python Script/Add_New_Emp.py</url>
           <line>44</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python Script/random_Sales_and_Prediction.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -572,5 +622,10 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="df_PredictedSales_Monthly" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
