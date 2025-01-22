@@ -141,3 +141,9 @@ SELECT e.*, s.salary
 FROM vw_Employees e
 left join Salary s
 ON e.emp_id = s.emp_id
+
+ALTER VIEW vw_employees AS
+SELECT e.*, s.salary
+FROM vw_Employees e
+LEFT JOIN Salary s
+ON e.emp_id = s.emp_id
