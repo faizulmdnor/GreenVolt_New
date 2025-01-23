@@ -2,47 +2,45 @@ from GreenVolt_db import greenvolt
 import pandas as pd
 
 
-SQL_QUERY = f'''
-WITH SalaryWithAvg AS (
-	SELECT
-		e.*,
-		s.salary,
-		AVG(s.salary) OVER (PARTITION BY e.department) AS avg_department_salary
-	FROM
-		vw_Employees e
-	LEFT JOIN 
-		Salary s
-	ON 
-		e.emp_id = s.emp_id
-),
-TotalEmployees AS (
-	SELECT 
-		Department, 
-		COUNT(*) AS Total_Emp
-	FROM 
-		vw_Employees
-	GROUP BY 
-		Department
+SQL_QUERY_1 = f'''
+WITH EmployeeAvgSalaryByDepartment AS (
+    SELECT 
+        emp_id,
+        First_Name,
+        Department,
+        Salary,
+        AVG(Salary) OVER (PARTITION BY Department) AS avg_salary
+    FROM
+        vw_employees
 )
 SELECT 
-	swa.Department, 
-	COUNT(*) AS Num_of_Emp_Above_AVG_Dept_Salary,
-	te.Total_Emp
+    Department,
+    COUNT(CASE WHEN Salary < avg_salary THEN emp_id END) AS [NumberOfEmp_Below_Avg_Salary],
+    COUNT(CASE WHEN Salary > avg_salary THEN emp_id END) AS [NumberOfEmp_Above_Avg_Salary],
+	COUNT(emp_id) as Total,
+    MAX(avg_salary) AS avg_salary -- avg_salary is constant within each department
 FROM 
-	SalaryWithAvg swa
-JOIN 
-	TotalEmployees te
-ON 
-	swa.Department = te.Department
-WHERE 
-	swa.salary > swa.avg_department_salary
-GROUP BY 
-	swa.Department, te.Total_Emp;
+    EmployeeAvgSalaryByDepartment
+GROUP BY Department
+ORDER BY [NumberOfEmp_Below_Avg_Salary] DESC;
 
 '''
 
-df = greenvolt.custom_query(SQL_QUERY)
+df = greenvolt.custom_query(SQL_QUERY_1)
 print(df)
 
-correlation = df[['Num_of_Emp_Above_AVG_Dept_Salary', 'Total_Emp']].corr()
-print(correlation)
+SQL_QUERY_2="""
+    SELECT * FROM Salary
+"""
+
+df2 = greenvolt.custom_query(SQL_QUERY_2)
+print(df2)
+
+dup_emp_id = df2['emp_id'].duplicated(keep='first')
+print(dup_emp_id)
+
+correlation_1 = df[['NumberOfEmp_Below_Avg_Salary', 'Total']].corr()
+print(correlation_1)
+
+correlation_2 = df[['NumberOfEmp_Above_Avg_Salary', 'Total']].corr()
+print(correlation_2)

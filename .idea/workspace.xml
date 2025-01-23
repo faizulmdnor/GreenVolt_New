@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66bb2c82-ce05-4dee-ba08-bff1a6b30804" name="Changes" comment="Add reliability-age datasets and requirements file&#10;&#10;Added two new CSV files containing reliability and age data to the specified directories for analysis or modeling purposes. Created a new `requirement.txt` file listing necessary dependencies, including pandas, numpy, and pyodbc, to facilitate data processing and analysis tasks.">
-      <change afterPath="$PROJECT_DIR$/Python Script/create_employees_csv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python Script/longest common subsequence.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Files/employees_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data Files/employees_info.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Files/reliability_age_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data Files/reliability_age_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL Query/GreenVolt_New-SQL-CREATE-INSERT-VIEW.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SQL Query/GreenVolt_New-SQL-CREATE-INSERT-VIEW.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Script/Salary_Analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Script/Salary_Analysis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +98,7 @@
       <recent name="E:\GreenVolt\SQL Quety" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.longest common subsequence">
+  <component name="RunManager" selected="Python.probability">
     <configuration name="Correletion_Reliability_Vs_Age" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GreenVolt" />
       <option name="ENV_FILES" value="" />
@@ -118,28 +113,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/Correletion_Reliability_Vs_Age.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Create_CSV_Data_Reliability_Vs_Age" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GreenVolt" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Script" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/Create_CSV_Data_Reliability_Vs_Age.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,13 +187,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="probability" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GreenVolt" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python Script" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python Script/probability.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.longest common subsequence" />
-        <item itemvalue="Python.Correletion_Reliability_Vs_Age" />
-        <item itemvalue="Python.Create_CSV_Data_Reliability_Vs_Age" />
+        <item itemvalue="Python.probability" />
         <item itemvalue="Python.Salary_Analysis" />
         <item itemvalue="Python.Insert_Salary" />
+        <item itemvalue="Python.longest common subsequence" />
+        <item itemvalue="Python.Correletion_Reliability_Vs_Age" />
       </list>
     </recent_temporary>
   </component>
@@ -576,7 +571,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733146296883</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Add reliability-age datasets and requirements file&#10;&#10;Added two new CSV files containing reliability and age data to the specified directories for analysis or modeling purposes. Created a new `requirement.txt` file listing necessary dependencies, including pandas, numpy, and pyodbc, to facilitate data processing and analysis tasks.">
+      <option name="closed" value="true" />
+      <created>1737533147674</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1737533147674</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -626,6 +629,11 @@
           <url>file://$PROJECT_DIR$/Python Script/random_Sales_and_Prediction.py</url>
           <line>8</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python Script/Salary_Analysis.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
